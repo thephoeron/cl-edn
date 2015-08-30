@@ -19,3 +19,8 @@ dependencies:
 test:
   override:
     - if [ "$CIRCLE_NODE_INDEX" = 0 ]; then COVERALLS=true run-prove cl-edn-test.asd; else run-prove cl-edn-test.asd; fi: {parallel: true}
+notify:
+  webhooks:
+    # A list of hook hashes, containing the url field
+    # gitter hook
+    - url: https://webhooks.gitter.im/e/4e6ed1dfae3a5b0b3966
