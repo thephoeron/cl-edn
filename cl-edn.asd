@@ -1,4 +1,8 @@
-;; file: cl-edn.asd
+;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: CL-EDN; Base: 10 -*-
+;;;; file: cl-edn.asd
+
+;;;; Copyright (c) 2015, "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
+;;;; See LICENSE for additional information.
 
 (in-package :cl-user)
 
